@@ -14,4 +14,3 @@ print(f"共获取 {len(stock_list)} 只 A 股股票")
 df_stock_list = pd.DataFrame(stock_list, columns=['Stock Code'])
 df_stock_list.to_excel("stock_list.xlsx", index=False)
 print("股票名单已保存到 stock_list.xlsx")
-git remote add origin git@github.com:your_username/your_repository.git
